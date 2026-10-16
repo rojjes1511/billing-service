@@ -1,0 +1,8 @@
+
+target/
+*.class
+
+# Local secrets
+.env
+.env.*
+!.env.example
