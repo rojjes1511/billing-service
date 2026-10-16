@@ -12,6 +12,10 @@ public class Payment {
 		case "GOLD":
 			finalAmount = amount - (amount * discount) / 100 - 100;
 			break;
+			
+		case "PLATINUM":
+			finalAmount = amount - (amount * discount) / 100 - 200;
+			break;
 
 		default:
 			finalAmount = amount;
